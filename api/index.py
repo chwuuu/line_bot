@@ -10,6 +10,8 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 
+
+
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('923fb6c9f046e9cfeb9297f2677817ec')
